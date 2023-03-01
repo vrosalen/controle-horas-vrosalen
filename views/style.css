@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-font: ;
+    --primary-color: ;
+    
+    --seconday-font: ;
+    --secondary-color: ;
+}
+
+#header_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw !important;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.primary_logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.primary_title {
+    display: flex;
+    margin-top: 10px;
+}
+
+#primary_container {
+    display: flex;
+    border: 1px solid black;
+}
+
+.primary_content {
+    display: flex;
+    justify-content: space-around; /*TALVEZ NAO SEJA UMA BOA IDEIA*/
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+}
+
+.primary_content button {
+    width: 165px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.init_frm {
+    display: none;
+}
